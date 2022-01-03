@@ -15,6 +15,10 @@ React.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<h2>Live Demo</h2>
+
+<a href="#" rel="noopener noreferrer">Live Demo Link</a>
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -81,3 +85,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<h3>Authors</h3>
+
+👤 Anja
+
+GitHub: <a href="https://github.com/Anjacodes" rel="noopener noreferrer">@Anjacodes</a><br>
+Twitter: <a href="https://twitter.com/Anja_Schmidt7" rel="noopener noreferrer">@Anja_Schmidt7</a><br>
+LinkedIn: <a href="https://www.linkedin.com/in/anja-schmidt7/" rel="noopener noreferrer">Anja Schmidt</a><br>
+
+<h2>🤝 Contributing</h2>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the <a href="https://github.com/microverseinc/readme-template/issues" rel="noopener noreferrer">issues page</a>.
+
+<h2>Show your support</h2>
+
+Give a ⭐️ if you like this project!
+
+<!-- <h2>Acknowledgments</h2>
+
+Thank you Microverse for your guidance in making a great portfolio for myself! -->
+
+<h2>📝 License</h2>
+
+This project is <a href="https://github.com/microverseinc/readme-template/blob/master/MIT.md" rel="noopener noreferrer">MIT</a> licensed.
+
+Copyright (c) 2022 Anja Schmidt
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
