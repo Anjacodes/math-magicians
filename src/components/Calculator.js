@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-export class Calculator extends Component {
+export class Calculator extends Component { // eslint-disable-line
   render() {
     return (
       <div className="calcContainer">
-        <input className="input"/>
+        <input className="input" />
         <div className="gridContainer">
           <button className="btn" type="button">AC</button>
           <button className="btn" type="button">+/-</button>
