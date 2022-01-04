@@ -1,11 +1,14 @@
+import React, { Component } from 'react';
 import { Calculator } from './components/Calculator';
 
-function App() {
-  return (
-    <div className="container">
-      <Calculator />
-    </div>
-  );
+export class App extends Component { // eslint-disable-line
+  render() {
+    return (
+      <div>
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;
