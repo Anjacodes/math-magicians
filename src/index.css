@@ -8,7 +8,32 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.calcContainer {
+  width: 30vw;
+  margin-left: 33%;
+  margin-top: 10%;
+}
+
+.input {
+  width: 100%;
+  background-color: #787a91;
+  height: 40px;
+}
+
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+  height: 40px;
+}
+
+.btn-large {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+.btn-orange {
+  background-color: #fc9918;
 }
