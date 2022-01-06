@@ -1,11 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Button = ({ handleClick, addClass, text }) => { // eslint-disable-line
-  return (
-    <button onClick={handleClick} className={addClass} type="button">{text}</button>
-  );
-};
+export const Button = ({ handleClick, addClass, text }) => (
+  <button onClick={handleClick} className={addClass} type="button">{text}</button>
+);
 
 // PropTypes
 Button.propTypes = {

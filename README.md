@@ -7,7 +7,7 @@
   <li>Read a random math-related quote.</li>
 </ul>
 
-<img width="710" alt="math magicians preview" src="#">
+<img width="710" alt="math magicians preview" src="/MathMagicians.png">
 
 <h2>🧩 Built With</h2>
 
@@ -15,9 +15,9 @@ React.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<h2>Live Demo</h2>
+<!-- <h2>Live Demo</h2>
 
-<a href="#" rel="noopener noreferrer">Live Demo Link</a>
+<a href="#" rel="noopener noreferrer">Live Demo Link</a> -->
 
 <h2>📚 Getting Started</h2>
 
@@ -41,6 +41,7 @@ Run `npm install` from your terminal window
 You can now edit the code in your favorite Code Editor or view it in your browser.
 
 <h2>Deployment</h2>
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -86,9 +87,3 @@ Thank you Microverse for your guidance in making a great portfolio for myself! -
 This project is <a href="https://github.com/microverseinc/readme-template/blob/master/MIT.md" rel="noopener noreferrer">MIT</a> licensed.
 
 Copyright (c) 2022 Anja Schmidt
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

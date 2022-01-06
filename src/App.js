@@ -1,11 +1,9 @@
 import { Calculator } from './components/Calculator';
 
-export const App = () => { // eslint-disable-line
-  return (
-    <div>
-      <Calculator />
-    </div>
-  );
-};
+export const App = () => (
+  <div>
+    <Calculator />
+  </div>
+);
 
 export default App;
