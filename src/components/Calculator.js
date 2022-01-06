@@ -1,63 +1,49 @@
-import React, { Component } from 'react';
+import { useState } from 'react';
 import calculate from '../logic/calculate';
 import { Button } from './Button';
 
-export class Calculator extends Component { // eslint-disable-line
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-  }
+export function Calculator() {
+  const [state, setState] = useState({ total: '0', next: null, operation: null });
 
-  handleClick = (e) => {
-    const adaptState = calculate(this.state, e.target.innerText);
-    this.setState(() => ({
-      total: adaptState.total,
-      next: adaptState.next,
-      operation: adaptState.operation,
-    }));
-  }
+  const handleClick = (e) => {
+    setState(calculate(state, e.target.innerText));
+  };
 
-  printResults = () => {
-    const { next, total, operation } = this.state;
+  const printResults = () => {
+    const { next, total, operation } = state;
     if (!next && !total && !operation) return '0';
     if (next && !total && !operation) return next;
     if (total && !next && operation) return total;
     if (total && next && operation) return next;
     return total;
-  }
+  };
 
-  render() {
-    return (
-      <div className="calcContainer">
-        <p className="input">{this.printResults()}</p>
-        <div className="gridContainer">
-          <Button handleClick={this.handleClick} class="btn" text="AC" />
-          <Button handleClick={this.handleClick} class="btn" text="+/-" />
-          <Button handleClick={this.handleClick} class="btn" text="%" />
-          <Button handleClick={this.handleClick} class="btn btn-orange" text="÷" />
-          <Button handleClick={this.handleClick} class="btn" text="7" />
-          <Button handleClick={this.handleClick} class="btn" text="8" />
-          <Button handleClick={this.handleClick} class="btn" text="9" />
-          <Button handleClick={this.handleClick} class="btn btn-orange" text="x" />
-          <Button handleClick={this.handleClick} class="btn" text="4" />
-          <Button handleClick={this.handleClick} class="btn" text="5" />
-          <Button handleClick={this.handleClick} class="btn" text="6" />
-          <Button handleClick={this.handleClick} class="btn btn-orange" text="-" />
-          <Button handleClick={this.handleClick} class="btn" text="1" />
-          <Button handleClick={this.handleClick} class="btn" text="2" />
-          <Button handleClick={this.handleClick} class="btn" text="3" />
-          <Button handleClick={this.handleClick} class="btn btn-orange" text="+" />
-          <Button handleClick={this.handleClick} class="btn btn-large" text="0" />
-          <Button handleClick={this.handleClick} class="btn" text="." />
-          <Button handleClick={this.handleClick} class="btn btn-orange" text="=" />
-        </div>
+  return (
+    <div className="calcContainer">
+      <p className="input">{printResults()}</p>
+      <div className="gridContainer">
+        <Button handleClick={handleClick} addClass="btn" text="AC" />
+        <Button handleClick={handleClick} addClass="btn" text="+/-" />
+        <Button handleClick={handleClick} addClass="btn" text="%" />
+        <Button handleClick={handleClick} addClass="btn btn-orange" text="÷" />
+        <Button handleClick={handleClick} addClass="btn" text="7" />
+        <Button handleClick={handleClick} addClass="btn" text="8" />
+        <Button handleClick={handleClick} addClass="btn" text="9" />
+        <Button handleClick={handleClick} addClass="btn btn-orange" text="x" />
+        <Button handleClick={handleClick} addClass="btn" text="4" />
+        <Button handleClick={handleClick} addClass="btn" text="5" />
+        <Button handleClick={handleClick} addClass="btn" text="6" />
+        <Button handleClick={handleClick} addClass="btn btn-orange" text="-" />
+        <Button handleClick={handleClick} addClass="btn" text="1" />
+        <Button handleClick={handleClick} addClass="btn" text="2" />
+        <Button handleClick={handleClick} addClass="btn" text="3" />
+        <Button handleClick={handleClick} addClass="btn btn-orange" text="+" />
+        <Button handleClick={handleClick} addClass="btn btn-large" text="0" />
+        <Button handleClick={handleClick} addClass="btn" text="." />
+        <Button handleClick={handleClick} addClass="btn btn-orange" text="=" />
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default Calculator;
