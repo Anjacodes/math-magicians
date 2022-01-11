@@ -1,0 +1,29 @@
+.navCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #e7e6e1;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.linkCont {
+  display: flex;
+  list-style: none;
+}
+
+.linkEl {
+  margin-left: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.link:hover {
+  color: #f2a154;
+}

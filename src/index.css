@@ -6,18 +6,33 @@
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #314e52;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.title {
+  margin-bottom: 50px;
+  color: #f2a154;
 }
 
 .calcContainer {
-  width: 30vw;
-  margin-left: 33%;
+  width: 40vw;
   margin-top: 10%;
 }
 
 .input {
   width: 100%;
-  background-color: #787a91;
+  background-color: #314e52;
+  color: white;
   height: 40px;
+  text-align: right;
+  padding: 4px 7px 0 0;
 }
 
 .gridContainer {
@@ -27,6 +42,8 @@ body {
 
 .btn {
   height: 40px;
+  background-color: #e7e6e1;
+  border: 1px solid #314e52;
 }
 
 .btn-large {
@@ -35,5 +52,13 @@ body {
 }
 
 .btn-orange {
-  background-color: #fc9918;
+  background-color: #f2a154;
+}
+
+.btn-orange:active {
+  background-color: #e1701a;
+}
+
+.btn-grey:active {
+  background-color: #aaa;
 }

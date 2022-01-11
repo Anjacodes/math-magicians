@@ -1,0 +1,15 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15%;
+}
+
+.big {
+  font-size: 1.5rem;
+}
+
+.bold {
+  font-weight: bold;
+  color: #f2a154;
+}
