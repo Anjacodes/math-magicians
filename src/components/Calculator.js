@@ -19,28 +19,31 @@ export function Calculator() {
   };
 
   return (
-    <div className="calcContainer">
-      <p className="input">{printResults()}</p>
-      <div className="gridContainer">
-        <Button handleClick={handleClick} addClass="btn" text="AC" />
-        <Button handleClick={handleClick} addClass="btn" text="+/-" />
-        <Button handleClick={handleClick} addClass="btn" text="%" />
-        <Button handleClick={handleClick} addClass="btn btn-orange" text="÷" />
-        <Button handleClick={handleClick} addClass="btn" text="7" />
-        <Button handleClick={handleClick} addClass="btn" text="8" />
-        <Button handleClick={handleClick} addClass="btn" text="9" />
-        <Button handleClick={handleClick} addClass="btn btn-orange" text="x" />
-        <Button handleClick={handleClick} addClass="btn" text="4" />
-        <Button handleClick={handleClick} addClass="btn" text="5" />
-        <Button handleClick={handleClick} addClass="btn" text="6" />
-        <Button handleClick={handleClick} addClass="btn btn-orange" text="-" />
-        <Button handleClick={handleClick} addClass="btn" text="1" />
-        <Button handleClick={handleClick} addClass="btn" text="2" />
-        <Button handleClick={handleClick} addClass="btn" text="3" />
-        <Button handleClick={handleClick} addClass="btn btn-orange" text="+" />
-        <Button handleClick={handleClick} addClass="btn btn-large" text="0" />
-        <Button handleClick={handleClick} addClass="btn" text="." />
-        <Button handleClick={handleClick} addClass="btn btn-orange" text="=" />
+    <div className="mainContainer">
+      <h2 className="title">Let&apos;s do some math!</h2>
+      <div className="calcContainer">
+        <p className="input">{printResults()}</p>
+        <div className="gridContainer">
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="AC" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="+/-" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="%" />
+          <Button handleClick={handleClick} addClass="btn-orange btn" text="÷" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="7" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="8" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="9" />
+          <Button handleClick={handleClick} addClass="btn btn-orange" text="x" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="4" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="5" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="6" />
+          <Button handleClick={handleClick} addClass="btn btn-orange" text="-" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="1" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="2" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="3" />
+          <Button handleClick={handleClick} addClass="btn btn-orange" text="+" />
+          <Button handleClick={handleClick} addClass="btn btn-large btn-grey" text="0" />
+          <Button handleClick={handleClick} addClass="btn btn-grey" text="." />
+          <Button handleClick={handleClick} addClass="btn btn-orange" text="=" />
+        </div>
       </div>
     </div>
   );
