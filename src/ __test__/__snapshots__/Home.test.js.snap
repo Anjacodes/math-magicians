@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Home correctly 1`] = `
+<div
+  className="center"
+>
+  <h2
+    className="title"
+  >
+    Welcome to our page!
+  </h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hac habitasse platea dictumst quisque. A diam sollicitudin tempor id. Ut porttitor leo a diam sollicitudin tempor. Nullam non nisi est sit amet facilisis. Sem et tortor consequat id porta nibh venenatis cras sed. Ultrices tincidunt arcu non sodales neque. Ac odio tempor orci dapibus ultrices in iaculis nunc sed.
+  </p>
+  <br />
+  <p>
+    Ac felis donec et odio pellentesque diam volutpat. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. Purus sit amet volutpat consequat mauris nunc congue nisi vitae. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum.
+  </p>
+</div>
+`;
