@@ -4,6 +4,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 
 it('renders the navbar correctly', () => {
-  let tree = renderer.create(<Router><Navbar /></Router>);
+  const tree = renderer.create(<Router><Navbar /></Router>);
   expect(tree).toMatchSnapshot();
-})
+});

@@ -1,7 +1,6 @@
-import operate from "../logic/operate";
+import operate from '../logic/operate';
 
 describe('Make basic arithmetic operations', () => {
-
   it('Sum of two numbers', () => {
     expect(operate('3', '5', '+')).toBe('8');
   });
@@ -29,4 +28,4 @@ describe('Make basic arithmetic operations', () => {
   it('Try to module by zero', () => {
     expect(operate('25', '0', '%')).toBe("Can't find modulo as can't divide by 0.");
   });
-})
+});
