@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Quote correctly 1`] = `
+<div
+  className="center"
+>
+  <p
+    className="big"
+  >
+    What is mathematics? It is only a systematic effort of solving puzzles posed by nature.
+    <br />
+    <span
+      className="bold"
+    >
+      — Shakuntala Devi
+    </span>
+  </p>
+</div>
+`;

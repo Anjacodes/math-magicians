@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -9,7 +10,7 @@ export const Button = ({ handleClick, addClass, text }) => (
 Button.propTypes = {
   addClass: PropTypes.string,
   text: PropTypes.string,
-  handleClick: PropTypes.func.isRequired,
+  handleClick: PropTypes.func,
 };
 
 Button.defaultProps = {
