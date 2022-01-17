@@ -15,9 +15,12 @@ React.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<!-- <h2>Live Demo</h2>
+<h2>Live Demo</h2>
 
-<a href="#" rel="noopener noreferrer">Live Demo Link</a> -->
+<a href="https://vigilant-kowalevski-cde2c6.netlify.app/" rel="noopener noreferrer">Live Demo Link 1</a>
+
+<a href="https://mathmagicians-app.herokuapp.com/" rel="noopener noreferrer">Live Demo Link 2</a>
+
 
 <h2>📚 Getting Started</h2>
 
